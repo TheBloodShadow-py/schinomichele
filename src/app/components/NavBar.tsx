@@ -118,11 +118,11 @@ export default function NavBar() {
                           pathname === "documentation" ? "text-teal-300" : ""
                         }`}
                       >
-                        <Link href="/documentation">DOCUMENTAZIONE</Link>
+                        <Link href="/documentazione">DOCUMENTAZIONE</Link>
                       </li>
                       <li className="flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2">
                         <Link
-                          href="/contacts"
+                          href="/contatti"
                           className={`'flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2 cursor-pointer' ${
                             pathname === "contacts" ? "text-teal-300" : ""
                           }`}
