@@ -29,7 +29,7 @@ export default function NavBar() {
     <>
       <CacheProvider>
         <ChakraProvider>
-          <header className="sticky top-0 left-0 w-full">
+          <header className="sticky top-0 left-0 w-fulL z-30">
             <div className=" bg-gray-200 py-3 px-4 text-white text-sm hidden md:block ">
               <div className="container my-0 mx-auto transition-all">
                 <div className="flex gap-4 items-center text-slate-600">
@@ -115,7 +115,7 @@ export default function NavBar() {
                       </li>
                       <li
                         className={`'flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2 cursor-pointer' ${
-                          pathname === "documentation" ? "text-teal-300" : ""
+                          pathname === "documentazione" ? "text-teal-300" : ""
                         }`}
                       >
                         <Link href="/documentazione">DOCUMENTAZIONE</Link>
@@ -124,7 +124,7 @@ export default function NavBar() {
                         <Link
                           href="/contatti"
                           className={`'flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2 cursor-pointer' ${
-                            pathname === "contacts" ? "text-teal-300" : ""
+                            pathname === "contatti" ? "text-teal-300" : ""
                           }`}
                         >
                           CONTATTI
@@ -173,17 +173,17 @@ export default function NavBar() {
                     </li>
                     <li
                       className={`'flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2 cursor-pointer' ${
-                        pathname === "documentation" ? "text-teal-300" : ""
+                        pathname === "documentazione" ? "text-teal-300" : ""
                       }`}
                     >
-                      <Link href="/documentation">DOCUMENTAZIONE</Link>
+                      <Link href="/documentazione">DOCUMENTAZIONE</Link>
                     </li>
                     <li
                       className={`'flex gap-2 items-center hover:text-teal-300 transition-colors duration-300 p-2 cursor-pointer' ${
-                        pathname === "contacts" ? "text-teal-300" : ""
+                        pathname === "contatti" ? "text-teal-300" : ""
                       }`}
                     >
-                      <Link href="/contacts">CONTATTI</Link>
+                      <Link href="/contatti">CONTATTI</Link>
                     </li>
                   </ul>
                 </ul>
